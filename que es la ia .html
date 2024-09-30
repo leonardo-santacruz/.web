@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué es la IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .tabs {
+            overflow: hidden;
+            background: #f1f1f1;
+            border-bottom: 1px solid #ddd;
+        }
+        .tabs button {
+            background: #ddd;
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .tabs button.active {
+            background: #333;
+            color: #fff;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            background: #fff;
+            border-top: 1px solid #ddd;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Qué es la IA</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab('que-es-ia')">¿Qué es la IA?</button>
+            <button class="tab-link" onclick="openTab('ventajas-desventajas')">Ventajas y Desventajas</button>
+            <button class="tab-link" onclick="openTab('tipos-ia')">Tipos de IA</button>
+            <button class="tab-link" onclick="openTab('ejemplo-aplicativo')">Ejemplo Aplicativo de IA</button>
+        </div>
+
+        <div id="que-es-ia" class="tab-content active">
+            <h2>¿Qué es la IA?</h2>
+            <img src="imagen 1/que-es-ia.jpg" alt="Qué es la IA">
+            <p>La Inteligencia Artificial (IA) es una rama de la informática que se ocupa de crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Esto incluye procesos como el aprendizaje, el razonamiento y la resolución de problemas.</p>
+            <video controls>
+                <source src="videos/que-es-la-ia.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+        <div id="ventajas-desventajas" class="tab-content">
+            <h2>Ventajas y Desventajas</h2>
+            <img src="imagen 2/ventajas-desventajas.jpg" alt="Ventajas y Desventajas">
+            <h3>Ventajas</h3>
+            <p>1. Automatización de tareas repetitivas.</p>
+            <p>2. Capacidad para analizar grandes volúmenes de datos rápidamente.</p>
+            <p>3. Mejora de la precisión en áreas como la medicina y la ingeniería.</p>
+            <h3>Desventajas</h3>
+            <p>1. Pérdida de empleos debido a la automatización.</p>
+            <p>2. Riesgos de seguridad y privacidad.</p>
+            <p>3. Desigualdades en el acceso a la tecnología.</p>
+            <video controls>
+                <source src="videos/ventajas-desventajas-ia.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+        <div id="tipos-ia" class="tab-content">
+            <h2>Tipos de IA</h2>
+            <img src="imagen 3/tipos-ia.jpg" alt="Tipos de IA">
+            <p>1. IA Débil: Diseñada para realizar una tarea específica, como asistentes virtuales y chatbots.</p>
+            <p>2. IA Fuerte: Tiene capacidades cognitivas similares a las humanas y puede entender, razonar y resolver problemas en una variedad de áreas.</p>
+            <p>3. IA General: Aún en desarrollo, busca replicar la inteligencia humana de manera integral y flexible.</p>
+            <h2>¿En qué casos se debe usar IA y en qué no?</h2>
+            <h3>Casos para Usar IA</h3>
+            <p>1. Cuando se requiere análisis rápido y preciso de grandes volúmenes de datos.</p>
+            <p>2. Para automatizar tareas repetitivas y mejorar la eficiencia.</p>
+            <p>3. En aplicaciones donde la personalización y el aprendizaje adaptativo pueden ofrecer un valor añadido.</p>
+            <h3>Casos para No Usar IA</h3>
+            <p>1. Cuando las decisiones requieren empatía o juicio humano profundo.</p>
+            <p>2. En situaciones donde la privacidad de los datos es una preocupación crítica.</p>
+            <p>3. Cuando el costo de implementación supera los beneficios esperados.</p>
+            <video controls>
+                <source src="videos/tipos-ia.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+        <div id="ejemplo-aplicativo" class="tab-content">
+            <h2>Ejemplo Aplicativo de IA</h2>
+            <p>Un ejemplo común es el reconocimiento facial en smartphones. La IA analiza y compara las características faciales para desbloquear el dispositivo de manera segura.</p>
+            <h2>Conclusión</h2>
+            <p>La inteligencia tiene varios aspectos que aportan mucha información al ser humano y ayudan a realizar diversas preguntas en tan solo segundos. Sin embargo, también se debe tener cuidado, ya que muchas personas lo utilizan para obtener información sin permiso o hacer mal uso de la inteligencia artificial.</p>
+            <img src="imagen 4/ejemplo-aplicativo.jpg" alt="Ejemplo Aplicativo de IA">
+            <video controls>
+                <source src="videos/ejemplo-aplicativo.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Qué es la IA</p>
+    </footer>
+
+    <script>
+        function openTab(tabId) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(tabContent => {
+                tabContent.classList.remove('active');
+            });
+
+            const tabLinks = document.querySelectorAll('.tab-link');
+            tabLinks.forEach(tabLink => {
+                tabLink.classList.remove('active');
+            });
+
+            document.getElementById(tabId).classList.add('active');
+
+            const activeTabLink = Array.from(tabLinks).find(link => link.onclick.toString().includes(tabId));
+            if (activeTabLink) {
+                activeTabLink.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
